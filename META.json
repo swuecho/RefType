@@ -42,7 +42,13 @@
       },
       "runtime" : {
          "requires" : {
+            "Exporter::Auto" : "0",
             "perl" : "5.10"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::More" : "0.88"
          }
       }
    },
