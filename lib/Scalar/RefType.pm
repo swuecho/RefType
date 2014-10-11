@@ -30,7 +30,7 @@ __END__
 
 =begin html
 
-<a href="https://travis-ci.org/swuecho/RefType"><img src="https://travis-ci.org/swuecho/Reftype?branch=master"></a>
+<a href="https://travis-ci.org/swuecho/RefType"><img src="https://travis-ci.org/swuecho/Reftype.svg?branch=master"></a>
 
 =end html
 
