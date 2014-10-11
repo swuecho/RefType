@@ -1,7 +1,7 @@
 # NAME 
 
 <div>
-    <a href="https://travis-ci.org/swuecho/WebService_MerriamWebster"><img src="https://travis-ci.org/swuecho/WebService_MerriamWebster.svg?branch=0.09"></a>
+    <a href="https://travis-ci.org/swuecho/RefType"><img src="https://travis-ci.org/swuecho/Reftype?branch=master"></a>
 </div>
 
 # SYNOPSIS

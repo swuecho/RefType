@@ -53,6 +53,17 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://git@github.com/swuecho/reftype/issues"
+      },
+      "homepage" : "https://git@github.com/swuecho/reftype",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://git@github.com/swuecho/reftype.git",
+         "web" : "https://git@github.com/swuecho/reftype"
+      }
+   },
    "version" : "0.01",
    "x_authority" : "cpan::SWUECHO",
    "x_contributors" : [
