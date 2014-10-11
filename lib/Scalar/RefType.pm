@@ -36,7 +36,28 @@ __END__
 
 =head1 SYNOPSIS
 
-    
+
+    my $x = \1;
+    my $y = ['a' .. 'z'];
+    my $z = { a => 1, b => 2};
+
+    ok(sref($x),"scalar ref");
+    ok(aref($y),"array ref");
+    ok(href($z),"hash ref");
+
+=head2 sref
+
+    accept one and only one argument, otherwise die
+    return true if the arg is a scalar ref
+
+=head2 aref
+
+    accept one and only one argument, otherwise die
+    return true if the arg is a array ref
+
+=head2 href
+    accept one and only one argument, otherwise die
+    return true if the arg is a hash ref
 
 =head1 DESCRIPTION
 

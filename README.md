@@ -6,6 +6,28 @@
 
 # SYNOPSIS
 
+    my $x = \1;
+    my $y = ['a' .. 'z'];
+    my $z = { a => 1, b => 2};
+
+    ok(sref($x),"scalar ref");
+    ok(aref($y),"array ref");
+    ok(href($z),"hash ref");
+
+## sref
+
+    accept one and only one argument, otherwise die
+    return true if the arg is a scalar ref
+
+## aref
+
+    accept one and only one argument, otherwise die
+    return true if the arg is a array ref
+
+## href
+    accept one and only one argument, otherwise die
+    return true if the arg is a hash ref
+
 # DESCRIPTION
 
 # AUTHOR
